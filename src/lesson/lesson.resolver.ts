@@ -11,7 +11,7 @@ import { LessonService } from './lesson.service';
 import { CreateLessonInput } from './lesson.input';
 import { assignStudentsToLessonInput } from './assignStudentsToLesson.input';
 import { Lesson } from './lesson.entity';
-import { StudentService } from 'src/student/student.service';
+import { StudentService } from '../student/student.service';
 
 @Resolver(() => LessonType)
 export class LessonResolver {
